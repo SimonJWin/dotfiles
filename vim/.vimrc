@@ -2,8 +2,7 @@
 set nocompatible
 filetype off
 
-" Explicitly set the Leader to comma. You can use '\' (the default),
-" or anything else (some people like ';').
+" Explicitly set the Leader to comma.
 let mapleader=','
 
 " Line wrapping? No!
@@ -51,6 +50,10 @@ if isdirectory(expand('$HOME/.vim/bundle/Vundle.vim'))
   Plugin 'vim-syntastic/syntastic'
   " Fish integration
   Plugin 'dag/vim-fish'
+  " Powerline
+  Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+  " All the color schemes
+  Plugin 'flazz/vim-colorschemes'
 
   call vundle#end()
 else
@@ -99,6 +102,12 @@ autocmd BufNewFile,BufEnter * silent! lcd %:p:h
 " use » to mark Tabs and ° to mark trailing whitespace. This is a
 " non-obtrusive way to mark these special characters.
 set list listchars=tab:»\ ,trail:°
+
+" Powerline status
+set laststatus=2
+
+" Pick a colorscheme
+colorscheme molokai
 
 " By default, it looks up man pages for the word under the cursor, which isn't
 " very useful, so we map it to something else.
