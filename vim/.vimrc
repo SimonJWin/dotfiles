@@ -112,3 +112,7 @@ colorscheme molokai
 " By default, it looks up man pages for the word under the cursor, which isn't
 " very useful, so we map it to something else.
 nnoremap <s-k> <CR>
+
+" Exit insert mode on a macbook/iPad without esc.
+inoremap jk <ESC>
+
