@@ -55,6 +55,10 @@ if isdirectory(expand('$HOME/.vim/bundle/Vundle.vim'))
   " All the color schemes
   Plugin 'flazz/vim-colorschemes'
 
+  " LSP support
+  Plugin 'prabirshrestha/async.vim'
+  Plugin 'prabirshrestha/vim-lsp'
+
   call vundle#end()
 else
   echomsg 'Vundle not working, install from github VundleVim/Vundle.vim'
@@ -93,8 +97,16 @@ cabbr <expr> %% expand('%:p:h')
 set nobackup
 set nowritebackup
 
+""""""""""""""""""""""""
+" Some custom keybinds "
+""""""""""""""""""""""""
 " Reload vimrc
 nnoremap <leader>RR :source ~/.vimrc<CR>
+" By default, it looks up man pages for the word under the cursor, which isn't
+" very useful, so we map it to something else.
+nnoremap <s-k> <CR>
+" An easier way out of insert mode, particularly if no esc key (iPad).
+inoremap jk <Esc>
 
 " Automatically change the working path to the path of the current file
 autocmd BufNewFile,BufEnter * silent! lcd %:p:h
@@ -108,11 +120,3 @@ set laststatus=2
 
 " Pick a colorscheme
 colorscheme molokai
-
-" By default, it looks up man pages for the word under the cursor, which isn't
-" very useful, so we map it to something else.
-nnoremap <s-k> <CR>
-
-" Exit insert mode on a macbook/iPad without esc.
-inoremap jk <ESC>
-
