@@ -160,8 +160,3 @@ bar {
 bindsym Mod1+Mod4+l exec ~/bin/screenlock
 
 for_window [class="^jetbrains-.+"][window_type=dialog] focus
-
-
-# Start XFCE panel
-exec --no-startup-id xfce4-panel --disable-wm-check
-
