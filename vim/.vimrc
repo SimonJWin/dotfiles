@@ -27,6 +27,9 @@ set expandtab
 set ts=2
 set sw=2
 
+" I'm not used to weird Vim backspace, make it work as expected.
+set backspace=indent,eol,start
+
 " Function to source only if file exists {
 function! SourceIfExists(file)
   if filereadable(expand(a:file))
