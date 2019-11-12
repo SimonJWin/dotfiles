@@ -24,8 +24,8 @@ cask 'sublime-text'
 cask 'atom'
 cask 'evernote'
 cask 'gimp'
-# Inkscape instaled by corp
 # cask 'inkscape'
+# cask 'iterm2'
 cask 'firefox'
 cask 'shiftit'
 
