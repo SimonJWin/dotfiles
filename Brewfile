@@ -28,6 +28,7 @@ cask 'gimp'
 # cask 'iterm2'
 cask 'firefox'
 cask 'shiftit'
+cask 'font-hack'
 
 cask 'qlcolorcode'
 cask 'qlstephen'
