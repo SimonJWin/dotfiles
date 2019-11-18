@@ -15,6 +15,9 @@ set relativenumber
 autocmd InsertEnter * silent! :set norelativenumber
 autocmd InsertLeave,BufNewFile,VimEnter * silent! :set relativenumber
 
+" Use the system copy/paste by default for yank/put.
+set clipboard=unnamed
+
 " Highlight the search term when you search for it, but don't highlight
 " just because we've sourced vimrc
 set hlsearch
