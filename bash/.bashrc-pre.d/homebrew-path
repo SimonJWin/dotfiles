@@ -1,0 +1,3 @@
+# Append these lines to your .bashrc
+export PATH=$HOME/homebrew/bin:$PATH
+export LD_LIBRARY_PATH=$HOME/homebrew/lib:$LD_LIBRARY_PATH
