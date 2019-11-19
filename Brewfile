@@ -18,6 +18,7 @@ brew 'lua'
 brew 'tree'
 brew 'libxml2'
 brew 'libxslt'
+brew 'sleepwatcher'
 
 cask 'alfred'
 cask 'sublime-text'
