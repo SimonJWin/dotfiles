@@ -1,6 +1,6 @@
 tap 'homebrew/bundle'
 tap 'homebrew/cask-fonts'
-tap 'jeantil/autokbisw/'
+tap 'jeantil/autokbisw'
 
 brew 'hub'
 brew 'coreutils'
