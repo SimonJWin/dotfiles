@@ -21,6 +21,8 @@ brew 'libxml2'
 brew 'libxslt'
 brew 'sleepwatcher'
 brew "jeantil/autokbisw/autokbisw", start_service: true
+brew 'htop'
+brew 'pstree'
 
 cask 'alfred'
 cask 'sublime-text'
