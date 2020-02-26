@@ -34,6 +34,7 @@ cask 'gimp'
 cask 'firefox'
 # Remve macvim for now, mvim command line fights vim brew and breaks vim command line.
 # cask 'macvim'
+cask 'notion'
 cask 'shiftit'
 cask 'font-hack'
 cask 'font-hack-nerd-font'
