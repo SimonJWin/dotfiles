@@ -1,6 +1,7 @@
 tap 'homebrew/bundle'
 tap 'homebrew/cask-fonts'
 tap 'jeantil/autokbisw'
+tap 'homebrew/cask-drivers'
 
 brew 'hub'
 brew 'coreutils'
@@ -23,6 +24,8 @@ brew 'sleepwatcher'
 brew "jeantil/autokbisw/autokbisw", start_service: true
 
 cask 'alfred'
+cask 'sonos'
+cask 'wireshark'
 cask 'sublime-text'
 cask 'atom'
 cask 'evernote'
