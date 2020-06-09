@@ -1,4 +1,5 @@
 tap 'homebrew/bundle'
+tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'jeantil/autokbisw'
 
@@ -23,8 +24,11 @@ brew 'sleepwatcher'
 brew "jeantil/autokbisw/autokbisw", start_service: true
 brew 'htop'
 brew 'pstree'
+brew 'thefuck'
+brew 'the_silver_searcher'
 
 cask 'alfred'
+cask 'blender'
 cask 'sublime-text'
 cask 'atom'
 cask 'evernote'
@@ -38,6 +42,9 @@ cask 'notion'
 cask 'shiftit'
 cask 'font-hack'
 cask 'font-hack-nerd-font'
+cask 'spotify'
+cask 'sonos'
+cask 'kindle'
 
 cask 'qlcolorcode'
 cask 'qlstephen'
