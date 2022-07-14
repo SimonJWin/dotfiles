@@ -9,8 +9,8 @@
     serve = !git daemon --reuseaddr --verbose --base-path=. --export-all ./.git
 
 [user]
-	name = Simon Wingrove
-	email = simonjw@gmail.com
+    name = Simon Wingrove
+    email = simonjw@gmail.com
 
 [color]
         diff = auto
@@ -37,3 +37,9 @@
 
 [rerere]
   enabled = true
+
+[include]
+  path = .gitconfig-corp
+[repo]
+	superprojectChoiceExpire = 1652959527
+	superprojectChoice = true

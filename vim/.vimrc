@@ -42,7 +42,7 @@ endfunction
 " }
 
 " Source corp config if it exists
-call SourceIfExists("~/.vim/google.vim")
+call SourceIfExists("~/.vim/corp.vim")
 
 " Setup Vundle and plugins
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -54,10 +54,6 @@ if isdirectory(expand('$HOME/.vim/bundle/Vundle.vim'))
   Plugin 'kalafut/vim-taskjuggler'
   " Syntastic
   Plugin 'vim-syntastic/syntastic'
-  " Fish integration
-  Plugin 'dag/vim-fish'
-  " Powerline
-  Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
   " All the color schemes
   Plugin 'flazz/vim-colorschemes'
 

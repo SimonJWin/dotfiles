@@ -158,5 +158,9 @@ bar {
 
 # lock screen
 bindsym Mod1+Mod4+l exec ~/bin/screenlock
+bindsym $mod+Shift+l exec ~/bin/screenlock
+
+# Wallpaper
+exec --no-startup-id "/usr/bin/feh --recursive --randomize --bg-fill ~/wallpaper"
 
 for_window [class="^jetbrains-.+"][window_type=dialog] focus
