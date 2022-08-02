@@ -1,0 +1,8 @@
+# Not for every mac - depends on the machine, can install from other places.
+brew 'python3'
+cask 'inkscape'
+cask 'iterm2'
+cask 'rectangle'
+cask 'spotify'
+cask 'sublime-text'
+mas 'whatsapp', id: 1147396723
